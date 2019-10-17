@@ -2,30 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2751a8cb-b3ad-4871-959f-107772e30394" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/homework4.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/generated-sources/antlr4/SimpleExpression.tokens" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/generated-sources/antlr4/SimpleExpressionLexer.tokens" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/generated-sources/antlr4/edu/postech/csed332/homework4/parser/SimpleExpression.interp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/generated-sources/antlr4/edu/postech/csed332/homework4/parser/SimpleExpressionBaseVisitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/generated-sources/antlr4/edu/postech/csed332/homework4/parser/SimpleExpressionLexer.interp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/generated-sources/antlr4/edu/postech/csed332/homework4/parser/SimpleExpressionLexer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/generated-sources/antlr4/edu/postech/csed332/homework4/parser/SimpleExpressionParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/generated-sources/antlr4/edu/postech/csed332/homework4/parser/SimpleExpressionVisitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/postech/csed332/homework4/ExpVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/postech/csed332/homework4/ExpVisitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/postech/csed332/homework4/expression/DivideExp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/postech/csed332/homework4/expression/DivideExp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/postech/csed332/homework4/expression/ExponentiationExp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/postech/csed332/homework4/expression/ExponentiationExp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/postech/csed332/homework4/expression/MinusExp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/postech/csed332/homework4/expression/MinusExp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/postech/csed332/homework4/expression/MultiplyExp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/postech/csed332/homework4/expression/MultiplyExp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/postech/csed332/homework4/expression/NumberExp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/postech/csed332/homework4/expression/NumberExp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/postech/csed332/homework4/expression/PlusExp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/postech/csed332/homework4/expression/PlusExp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/postech/csed332/homework4/expression/VariableExp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/postech/csed332/homework4/expression/VariableExp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/postech/csed332/homework4/ToStringVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/postech/csed332/homework4/ToStringVisitor.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
