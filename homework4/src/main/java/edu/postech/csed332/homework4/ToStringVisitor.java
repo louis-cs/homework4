@@ -44,5 +44,5 @@ public class ToStringVisitor implements ExpVisitor<String> {
     public String visitExponentiationExp(ExponentiationExp v) {
         return (v.getLeft().toString() + " ^ " + v.getRight().toString());
     }
-    
+
 }
