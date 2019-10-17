@@ -13,7 +13,6 @@ public class NumberExp extends Exp {
     public NumberExp(@NotNull Double v) {
         this.value = v;
     }
-
     /**
      * @return value
      */
@@ -25,7 +24,6 @@ public class NumberExp extends Exp {
     @Override
     @NotNull
     public <T> T accept(@NotNull ExpVisitor<T> visitor) {
-        // TODO implement this
-        return null;
+        return visitor.visitNumberExp(this);
     }
 }
