@@ -1,0 +1,33 @@
+-------------------------------------------------------------------------------
+Test set: edu.postech.csed332.homework4.ExpRandomTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.413 s <<< FAILURE! - in edu.postech.csed332.homework4.ExpRandomTest
+testPrettyPrintDecoration  Time elapsed: 0.179 s  <<< FAILURE!
+java.lang.AssertionError: 
+Property named 'testPrettyPrintDecoration' failed (expected:<0.0> but was:<NaN>):
+With arguments: [82.7829394207507 * -42.449953897044246 + -73.5573413474992 * x1 / 52.102511688413045 / -97.9866769788559 ^ 8.131581435200435, [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]]
+Original failure message: expected:<2.1495306315493315E-6> but was:<NaN>
+First arguments found to also provoke a failure: [82.7829394207507 * -42.449953897044246 + -73.5573413474992 * x1 / 52.102511688413045 / -97.9866769788559 ^ 8.131581435200435, [0.2859023584341316, 0.5623620786555922, 0.19441770100087385, 0.72960541693767, 0.15528137842885337, 0.9104530130687207, 0.21979511012359032, 0.9733820022609881, 0.6409509832007451, 0.5331009666763232]]
+Seeds for reproduction: [-5971815476625859651, -7397150416600916396]
+	at edu.postech.csed332.homework4.ExpRandomTest.testPrettyPrintDecoration(ExpRandomTest.java:73)
+Caused by: java.lang.AssertionError: expected:<2.1495306315493315E-6> but was:<NaN>
+	at edu.postech.csed332.homework4.ExpRandomTest.testPrettyPrintDecoration(ExpRandomTest.java:73)
+
+testDefaultValueDecoration  Time elapsed: 0.01 s  <<< FAILURE!
+java.lang.AssertionError: 
+Property named 'testDefaultValueDecoration' failed (expected:<null> but was:<-93.20168999899778>)
+With arguments: [-93.20168999899778, 1.0]
+Seeds for reproduction: [1715136984964071669, -6504370687279704299]
+	at edu.postech.csed332.homework4.ExpRandomTest.testDefaultValueDecoration(ExpRandomTest.java:98)
+
+testEvaluation  Time elapsed: 0.057 s  <<< FAILURE!
+java.lang.AssertionError: 
+Property named 'testEvaluation' failed (expected:<1.0> but was:<0.8981933855798631>):
+With arguments: [x2 + 82.05219290803598 / 91.35247957216257 + x3 / 51.07414765405352 ^ x2, [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]]
+Original failure message: expected:<1.147190261235731> but was:<1.438219343278851>
+First arguments found to also provoke a failure: [x2 + 82.05219290803598 / 91.35247957216257 + x3 / 51.07414765405352 ^ x2, [0.44456347844151156, 0.44907035955139774, 0.5320248633384137, 0.547795276419423, 0.8458020179412834, 0.46386888601013987, 0.19337266228063332, 0.18077953408845293, 9.79988947163113E-4, 0.9774651750939815]]
+Seeds for reproduction: [8559540969795276042, 8283145035431117720]
+	at edu.postech.csed332.homework4.ExpRandomTest.testEvaluation(ExpRandomTest.java:52)
+Caused by: java.lang.AssertionError: expected:<1.147190261235731> but was:<1.438219343278851>
+	at edu.postech.csed332.homework4.ExpRandomTest.testEvaluation(ExpRandomTest.java:52)
+
