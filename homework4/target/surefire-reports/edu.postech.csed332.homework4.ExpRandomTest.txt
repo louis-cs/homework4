@@ -1,33 +1,33 @@
 -------------------------------------------------------------------------------
 Test set: edu.postech.csed332.homework4.ExpRandomTest
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.413 s <<< FAILURE! - in edu.postech.csed332.homework4.ExpRandomTest
-testPrettyPrintDecoration  Time elapsed: 0.179 s  <<< FAILURE!
+Tests run: 4, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.382 s <<< FAILURE! - in edu.postech.csed332.homework4.ExpRandomTest
+testPrettyPrintDecoration  Time elapsed: 0.16 s  <<< FAILURE!
 java.lang.AssertionError: 
-Property named 'testPrettyPrintDecoration' failed (expected:<0.0> but was:<NaN>):
-With arguments: [82.7829394207507 * -42.449953897044246 + -73.5573413474992 * x1 / 52.102511688413045 / -97.9866769788559 ^ 8.131581435200435, [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]]
-Original failure message: expected:<2.1495306315493315E-6> but was:<NaN>
-First arguments found to also provoke a failure: [82.7829394207507 * -42.449953897044246 + -73.5573413474992 * x1 / 52.102511688413045 / -97.9866769788559 ^ 8.131581435200435, [0.2859023584341316, 0.5623620786555922, 0.19441770100087385, 0.72960541693767, 0.15528137842885337, 0.9104530130687207, 0.21979511012359032, 0.9733820022609881, 0.6409509832007451, 0.5331009666763232]]
-Seeds for reproduction: [-5971815476625859651, -7397150416600916396]
+Property named 'testPrettyPrintDecoration' failed (expected:<0.0> but was:<-93.74471479522518>):
+With arguments: [x2 ^ x2 + 73.27049706018295 ^ x3 + x1 - 95.74471479522518 + x1 ^ x2 * -95.90250103017097 * x2 ^ 7.721181584012754, [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]]
+Original failure message: expected:<3.47123388533349E26> but was:<-87.42740132969153>
+First arguments found to also provoke a failure: [x2 ^ x2 + 73.27049706018295 ^ x3 + x1 - 95.74471479522518 + x1 ^ x2 * -95.90250103017097 * x2 ^ 7.721181584012754, [0.01610271860438317, 0.32503345652784077, 0.47265556216875004, 0.013137733920412509, 0.9913279736321433, 0.5021925830173877, 0.24938425334683323, 0.7158704453528318, 0.2010234088740589, 0.9662243296523897]]
+Seeds for reproduction: [2812879778256323750, -1856635510677099193]
 	at edu.postech.csed332.homework4.ExpRandomTest.testPrettyPrintDecoration(ExpRandomTest.java:73)
-Caused by: java.lang.AssertionError: expected:<2.1495306315493315E-6> but was:<NaN>
+Caused by: java.lang.AssertionError: expected:<3.47123388533349E26> but was:<-87.42740132969153>
 	at edu.postech.csed332.homework4.ExpRandomTest.testPrettyPrintDecoration(ExpRandomTest.java:73)
 
-testDefaultValueDecoration  Time elapsed: 0.01 s  <<< FAILURE!
+testDefaultValueDecoration  Time elapsed: 0.014 s  <<< FAILURE!
 java.lang.AssertionError: 
-Property named 'testDefaultValueDecoration' failed (expected:<null> but was:<-93.20168999899778>)
-With arguments: [-93.20168999899778, 1.0]
-Seeds for reproduction: [1715136984964071669, -6504370687279704299]
+Property named 'testDefaultValueDecoration' failed (expected:<-1328.4530367872662> but was:<-73.53143811629518>)
+With arguments: [-45.02978887580882 + x1 - x1 ^ x1 * 29.50164924048636, 1.0]
+Seeds for reproduction: [6726639791770022019, -600369399056659954]
 	at edu.postech.csed332.homework4.ExpRandomTest.testDefaultValueDecoration(ExpRandomTest.java:98)
 
-testEvaluation  Time elapsed: 0.057 s  <<< FAILURE!
+testEvaluation  Time elapsed: 0.039 s  <<< FAILURE!
 java.lang.AssertionError: 
-Property named 'testEvaluation' failed (expected:<1.0> but was:<0.8981933855798631>):
-With arguments: [x2 + 82.05219290803598 / 91.35247957216257 + x3 / 51.07414765405352 ^ x2, [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]]
-Original failure message: expected:<1.147190261235731> but was:<1.438219343278851>
-First arguments found to also provoke a failure: [x2 + 82.05219290803598 / 91.35247957216257 + x3 / 51.07414765405352 ^ x2, [0.44456347844151156, 0.44907035955139774, 0.5320248633384137, 0.547795276419423, 0.8458020179412834, 0.46386888601013987, 0.19337266228063332, 0.18077953408845293, 9.79988947163113E-4, 0.9774651750939815]]
-Seeds for reproduction: [8559540969795276042, 8283145035431117720]
+Property named 'testEvaluation' failed (expected:<NaN> but was:<Infinity>):
+With arguments: [9.255262485387306 ^ 1.4373398594037416 / x8 + 11.820784753046908 * x4 * x1 + -26.449120042184887 * x8 + -73.16671753105548 / 75.6614127333213 + 78.96393171589793 * x7 ^ 8.13454085968572, [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]]
+Original failure message: expected:<8.174413609437955E15> but was:<116.52326020744542>
+First arguments found to also provoke a failure: [9.255262485387306 ^ 1.4373398594037416 / x8 + 11.820784753046908 * x4 * x1 + -26.449120042184887 * x8 + -73.16671753105548 / 75.6614127333213 + 78.96393171589793 * x7 ^ 8.13454085968572, [0.44402029613391014, 0.9681805465996541, 0.5027802027330444, 0.053485611749339745, 0.657015661505091, 0.41570835078285084, 0.9752677708180145, 0.3883336487505292, 0.5014074254235942, 0.9828153469786214]]
+Seeds for reproduction: [7161612927519643104, 2364336385514828052]
 	at edu.postech.csed332.homework4.ExpRandomTest.testEvaluation(ExpRandomTest.java:52)
-Caused by: java.lang.AssertionError: expected:<1.147190261235731> but was:<1.438219343278851>
+Caused by: java.lang.AssertionError: expected:<8.174413609437955E15> but was:<116.52326020744542>
 	at edu.postech.csed332.homework4.ExpRandomTest.testEvaluation(ExpRandomTest.java:52)
 

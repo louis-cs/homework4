@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="edu.postech.csed332.homework4.ExpRandomTest" time="0.413" tests="4" errors="0" skipped="0" failures="3">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="edu.postech.csed332.homework4.ExpRandomTest" time="0.382" tests="4" errors="0" skipped="0" failures="3">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="GB"/>
     <property name="sun.boot.library.path" value="D:\Program files\JavaDK\bin"/>
-    <property name="sun.java.command" value="C:\Users\louis\AppData\Local\Temp\surefire13018272150172569114\surefirebooter17814258074274112487.jar C:\Users\louis\AppData\Local\Temp\surefire13018272150172569114 2019-10-18T15-31-41_833-jvmRun1 surefire1553462196707398647tmp surefire_09565944248046745075tmp"/>
+    <property name="sun.java.command" value="C:\Users\louis\AppData\Local\Temp\surefire10005800880429404944\surefirebooter11411155167858024052.jar C:\Users\louis\AppData\Local\Temp\surefire10005800880429404944 2019-10-18T19-44-35_278-jvmRun1 surefire6468923876783253865tmp surefire_0230434777566492786tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\Documents\Course Notes\Software Design Methods\homework4\homework4\target\test-classes;D:\Documents\Course Notes\Software Design Methods\homework4\homework4\target\classes;C:\Users\louis\.m2\repository\org\jetbrains\annotations\17.0.0\annotations-17.0.0.jar;C:\Users\louis\.m2\repository\org\antlr\antlr4-runtime\4.7.2\antlr4-runtime-4.7.2.jar;C:\Users\louis\.m2\repository\org\junit\jupiter\junit-jupiter\5.5.2\junit-jupiter-5.5.2.jar;C:\Users\louis\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.5.2\junit-jupiter-api-5.5.2.jar;C:\Users\louis\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\louis\.m2\repository\org\junit\platform\junit-platform-commons\1.5.2\junit-platform-commons-1.5.2.jar;C:\Users\louis\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.5.2\junit-jupiter-params-5.5.2.jar;C:\Users\louis\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.5.2\junit-jupiter-engine-5.5.2.jar;C:\Users\louis\.m2\repository\org\junit\vintage\junit-vintage-engine\5.5.2\junit-vintage-engine-5.5.2.jar;C:\Users\louis\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\louis\.m2\repository\org\junit\platform\junit-platform-engine\1.5.2\junit-platform-engine-1.5.2.jar;C:\Users\louis\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\louis\.m2\repository\com\pholser\junit-quickcheck-core\0.9\junit-quickcheck-core-0.9.jar;C:\Users\louis\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\louis\.m2\repository\org\javaruntype\javaruntype\1.3\javaruntype-1.3.jar;C:\Users\louis\.m2\repository\org\antlr\antlr-runtime\3.1.2\antlr-runtime-3.1.2.jar;C:\Users\louis\.m2\repository\ognl\ognl\3.1.12\ognl-3.1.12.jar;C:\Users\louis\.m2\repository\org\javassist\javassist\3.20.0-GA\javassist-3.20.0-GA.jar;C:\Users\louis\.m2\repository\ru\vyarus\generics-resolver\2.0.1\generics-resolver-2.0.1.jar;C:\Users\louis\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\louis\.m2\repository\com\pholser\junit-quickcheck-generators\0.9\junit-quickcheck-generators-0.9.jar;C:\Users\louis\.m2\repository\com\fathzer\javaluator\3.0.3\javaluator-3.0.3.jar;C:\Users\louis\.m2\repository\org\slf4j\slf4j-simple\1.7.28\slf4j-simple-1.7.28.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -33,7 +33,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\louis\AppData\Local\Temp\surefire13018272150172569114\surefirebooter17814258074274112487.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\louis\AppData\Local\Temp\surefire10005800880429404944\surefirebooter11411155167858024052.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="12.0.2+10"/>
@@ -58,36 +58,36 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="56.0"/>
   </properties>
-  <testcase name="testPrettyPrintDecoration" classname="edu.postech.csed332.homework4.ExpRandomTest" time="0.179">
-    <failure message="Property named &apos;testPrettyPrintDecoration&apos; failed (expected:&lt;0.0&gt; but was:&lt;NaN&gt;):&#10;With arguments: [82.7829394207507 * -42.449953897044246 + -73.5573413474992 * x1 / 52.102511688413045 / -97.9866769788559 ^ 8.131581435200435, [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]]&#10;Original failure message: expected:&lt;2.1495306315493315E-6&gt; but was:&lt;NaN&gt;&#10;First arguments found to also provoke a failure: [82.7829394207507 * -42.449953897044246 + -73.5573413474992 * x1 / 52.102511688413045 / -97.9866769788559 ^ 8.131581435200435, [0.2859023584341316, 0.5623620786555922, 0.19441770100087385, 0.72960541693767, 0.15528137842885337, 0.9104530130687207, 0.21979511012359032, 0.9733820022609881, 0.6409509832007451, 0.5331009666763232]]&#10;Seeds for reproduction: [-5971815476625859651, -7397150416600916396]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
-Property named 'testPrettyPrintDecoration' failed (expected:<0.0> but was:<NaN>):
-With arguments: [82.7829394207507 * -42.449953897044246 + -73.5573413474992 * x1 / 52.102511688413045 / -97.9866769788559 ^ 8.131581435200435, [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]]
-Original failure message: expected:<2.1495306315493315E-6> but was:<NaN>
-First arguments found to also provoke a failure: [82.7829394207507 * -42.449953897044246 + -73.5573413474992 * x1 / 52.102511688413045 / -97.9866769788559 ^ 8.131581435200435, [0.2859023584341316, 0.5623620786555922, 0.19441770100087385, 0.72960541693767, 0.15528137842885337, 0.9104530130687207, 0.21979511012359032, 0.9733820022609881, 0.6409509832007451, 0.5331009666763232]]
-Seeds for reproduction: [-5971815476625859651, -7397150416600916396]
+  <testcase name="testPrettyPrintDecoration" classname="edu.postech.csed332.homework4.ExpRandomTest" time="0.16">
+    <failure message="Property named &apos;testPrettyPrintDecoration&apos; failed (expected:&lt;0.0&gt; but was:&lt;-93.74471479522518&gt;):&#10;With arguments: [x2 ^ x2 + 73.27049706018295 ^ x3 + x1 - 95.74471479522518 + x1 ^ x2 * -95.90250103017097 * x2 ^ 7.721181584012754, [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]]&#10;Original failure message: expected:&lt;3.47123388533349E26&gt; but was:&lt;-87.42740132969153&gt;&#10;First arguments found to also provoke a failure: [x2 ^ x2 + 73.27049706018295 ^ x3 + x1 - 95.74471479522518 + x1 ^ x2 * -95.90250103017097 * x2 ^ 7.721181584012754, [0.01610271860438317, 0.32503345652784077, 0.47265556216875004, 0.013137733920412509, 0.9913279736321433, 0.5021925830173877, 0.24938425334683323, 0.7158704453528318, 0.2010234088740589, 0.9662243296523897]]&#10;Seeds for reproduction: [2812879778256323750, -1856635510677099193]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+Property named 'testPrettyPrintDecoration' failed (expected:<0.0> but was:<-93.74471479522518>):
+With arguments: [x2 ^ x2 + 73.27049706018295 ^ x3 + x1 - 95.74471479522518 + x1 ^ x2 * -95.90250103017097 * x2 ^ 7.721181584012754, [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]]
+Original failure message: expected:<3.47123388533349E26> but was:<-87.42740132969153>
+First arguments found to also provoke a failure: [x2 ^ x2 + 73.27049706018295 ^ x3 + x1 - 95.74471479522518 + x1 ^ x2 * -95.90250103017097 * x2 ^ 7.721181584012754, [0.01610271860438317, 0.32503345652784077, 0.47265556216875004, 0.013137733920412509, 0.9913279736321433, 0.5021925830173877, 0.24938425334683323, 0.7158704453528318, 0.2010234088740589, 0.9662243296523897]]
+Seeds for reproduction: [2812879778256323750, -1856635510677099193]
 	at edu.postech.csed332.homework4.ExpRandomTest.testPrettyPrintDecoration(ExpRandomTest.java:73)
-Caused by: java.lang.AssertionError: expected:<2.1495306315493315E-6> but was:<NaN>
+Caused by: java.lang.AssertionError: expected:<3.47123388533349E26> but was:<-87.42740132969153>
 	at edu.postech.csed332.homework4.ExpRandomTest.testPrettyPrintDecoration(ExpRandomTest.java:73)
 ]]></failure>
   </testcase>
-  <testcase name="testDefaultValueDecoration" classname="edu.postech.csed332.homework4.ExpRandomTest" time="0.01">
-    <failure message="Property named &apos;testDefaultValueDecoration&apos; failed (expected:&lt;null&gt; but was:&lt;-93.20168999899778&gt;)&#10;With arguments: [-93.20168999899778, 1.0]&#10;Seeds for reproduction: [1715136984964071669, -6504370687279704299]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
-Property named 'testDefaultValueDecoration' failed (expected:<null> but was:<-93.20168999899778>)
-With arguments: [-93.20168999899778, 1.0]
-Seeds for reproduction: [1715136984964071669, -6504370687279704299]
+  <testcase name="testDefaultValueDecoration" classname="edu.postech.csed332.homework4.ExpRandomTest" time="0.014">
+    <failure message="Property named &apos;testDefaultValueDecoration&apos; failed (expected:&lt;-1328.4530367872662&gt; but was:&lt;-73.53143811629518&gt;)&#10;With arguments: [-45.02978887580882 + x1 - x1 ^ x1 * 29.50164924048636, 1.0]&#10;Seeds for reproduction: [6726639791770022019, -600369399056659954]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+Property named 'testDefaultValueDecoration' failed (expected:<-1328.4530367872662> but was:<-73.53143811629518>)
+With arguments: [-45.02978887580882 + x1 - x1 ^ x1 * 29.50164924048636, 1.0]
+Seeds for reproduction: [6726639791770022019, -600369399056659954]
 	at edu.postech.csed332.homework4.ExpRandomTest.testDefaultValueDecoration(ExpRandomTest.java:98)
 ]]></failure>
   </testcase>
-  <testcase name="testToString" classname="edu.postech.csed332.homework4.ExpRandomTest" time="0.164"/>
-  <testcase name="testEvaluation" classname="edu.postech.csed332.homework4.ExpRandomTest" time="0.057">
-    <failure message="Property named &apos;testEvaluation&apos; failed (expected:&lt;1.0&gt; but was:&lt;0.8981933855798631&gt;):&#10;With arguments: [x2 + 82.05219290803598 / 91.35247957216257 + x3 / 51.07414765405352 ^ x2, [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]]&#10;Original failure message: expected:&lt;1.147190261235731&gt; but was:&lt;1.438219343278851&gt;&#10;First arguments found to also provoke a failure: [x2 + 82.05219290803598 / 91.35247957216257 + x3 / 51.07414765405352 ^ x2, [0.44456347844151156, 0.44907035955139774, 0.5320248633384137, 0.547795276419423, 0.8458020179412834, 0.46386888601013987, 0.19337266228063332, 0.18077953408845293, 9.79988947163113E-4, 0.9774651750939815]]&#10;Seeds for reproduction: [8559540969795276042, 8283145035431117720]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
-Property named 'testEvaluation' failed (expected:<1.0> but was:<0.8981933855798631>):
-With arguments: [x2 + 82.05219290803598 / 91.35247957216257 + x3 / 51.07414765405352 ^ x2, [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]]
-Original failure message: expected:<1.147190261235731> but was:<1.438219343278851>
-First arguments found to also provoke a failure: [x2 + 82.05219290803598 / 91.35247957216257 + x3 / 51.07414765405352 ^ x2, [0.44456347844151156, 0.44907035955139774, 0.5320248633384137, 0.547795276419423, 0.8458020179412834, 0.46386888601013987, 0.19337266228063332, 0.18077953408845293, 9.79988947163113E-4, 0.9774651750939815]]
-Seeds for reproduction: [8559540969795276042, 8283145035431117720]
+  <testcase name="testToString" classname="edu.postech.csed332.homework4.ExpRandomTest" time="0.168"/>
+  <testcase name="testEvaluation" classname="edu.postech.csed332.homework4.ExpRandomTest" time="0.039">
+    <failure message="Property named &apos;testEvaluation&apos; failed (expected:&lt;NaN&gt; but was:&lt;Infinity&gt;):&#10;With arguments: [9.255262485387306 ^ 1.4373398594037416 / x8 + 11.820784753046908 * x4 * x1 + -26.449120042184887 * x8 + -73.16671753105548 / 75.6614127333213 + 78.96393171589793 * x7 ^ 8.13454085968572, [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]]&#10;Original failure message: expected:&lt;8.174413609437955E15&gt; but was:&lt;116.52326020744542&gt;&#10;First arguments found to also provoke a failure: [9.255262485387306 ^ 1.4373398594037416 / x8 + 11.820784753046908 * x4 * x1 + -26.449120042184887 * x8 + -73.16671753105548 / 75.6614127333213 + 78.96393171589793 * x7 ^ 8.13454085968572, [0.44402029613391014, 0.9681805465996541, 0.5027802027330444, 0.053485611749339745, 0.657015661505091, 0.41570835078285084, 0.9752677708180145, 0.3883336487505292, 0.5014074254235942, 0.9828153469786214]]&#10;Seeds for reproduction: [7161612927519643104, 2364336385514828052]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+Property named 'testEvaluation' failed (expected:<NaN> but was:<Infinity>):
+With arguments: [9.255262485387306 ^ 1.4373398594037416 / x8 + 11.820784753046908 * x4 * x1 + -26.449120042184887 * x8 + -73.16671753105548 / 75.6614127333213 + 78.96393171589793 * x7 ^ 8.13454085968572, [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]]
+Original failure message: expected:<8.174413609437955E15> but was:<116.52326020744542>
+First arguments found to also provoke a failure: [9.255262485387306 ^ 1.4373398594037416 / x8 + 11.820784753046908 * x4 * x1 + -26.449120042184887 * x8 + -73.16671753105548 / 75.6614127333213 + 78.96393171589793 * x7 ^ 8.13454085968572, [0.44402029613391014, 0.9681805465996541, 0.5027802027330444, 0.053485611749339745, 0.657015661505091, 0.41570835078285084, 0.9752677708180145, 0.3883336487505292, 0.5014074254235942, 0.9828153469786214]]
+Seeds for reproduction: [7161612927519643104, 2364336385514828052]
 	at edu.postech.csed332.homework4.ExpRandomTest.testEvaluation(ExpRandomTest.java:52)
-Caused by: java.lang.AssertionError: expected:<1.147190261235731> but was:<1.438219343278851>
+Caused by: java.lang.AssertionError: expected:<8.174413609437955E15> but was:<116.52326020744542>
 	at edu.postech.csed332.homework4.ExpRandomTest.testEvaluation(ExpRandomTest.java:52)
 ]]></failure>
   </testcase>

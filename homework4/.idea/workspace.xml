@@ -4,8 +4,15 @@
     <list default="true" id="2751a8cb-b3ad-4871-959f-107772e30394" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/postech/csed332/homework4/DefaultValueExpDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/postech/csed332/homework4/DefaultValueExpDecorator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/postech/csed332/homework4/PrettyPrintExpDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/postech/csed332/homework4/PrettyPrintExpDecorator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/postech/csed332/homework4/RenamingEquivDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/postech/csed332/homework4/RenamingEquivDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/postech/csed332/homework4/DefaultValueExpDecorator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/postech/csed332/homework4/DefaultValueExpDecorator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/postech/csed332/homework4/PrettyPrintExpDecorator$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/postech/csed332/homework4/PrettyPrintExpDecorator$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/postech/csed332/homework4/RenamingEquivDecorator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/postech/csed332/homework4/RenamingEquivDecorator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.postech.csed332.homework4.ExpRandomTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.postech.csed332.homework4.ExpRandomTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.postech.csed332.homework4.ExpTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.postech.csed332.homework4.ExpTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/edu.postech.csed332.homework4.ExpRandomTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/edu.postech.csed332.homework4.ExpRandomTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/edu.postech.csed332.homework4.ExpTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/edu.postech.csed332.homework4.ExpTest.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +29,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -34,6 +42,29 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="ExpTest.testDefaultValueDecoration" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="homework4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.postech.csed332.homework4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.postech.csed332.homework4" />
+      <option name="MAIN_CLASS_NAME" value="edu.postech.csed332.homework4.ExpTest" />
+      <option name="METHOD_NAME" value="testDefaultValueDecoration" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ExpTest.testDefaultValueDecoration" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />

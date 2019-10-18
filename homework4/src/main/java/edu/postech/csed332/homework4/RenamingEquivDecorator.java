@@ -16,6 +16,13 @@ public class RenamingEquivDecorator extends ExpDecorator {
 
     private Map<Integer, Integer> renamedMap;
 
+    private class PrivateEquivalenceVisitor extends EquivalenceVisitor{
+
+        public PrivateEquivalenceVisitor(@NotNull Exp other) {
+            super(other);
+        }
+    }
+
     public RenamingEquivDecorator(Exp e) {
         super(e);
     }

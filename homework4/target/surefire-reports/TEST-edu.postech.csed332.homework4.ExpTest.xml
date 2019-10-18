@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="edu.postech.csed332.homework4.ExpTest" time="0.119" tests="10" errors="0" skipped="0" failures="4">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="edu.postech.csed332.homework4.ExpTest" time="0.092" tests="10" errors="0" skipped="0" failures="2">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="GB"/>
     <property name="sun.boot.library.path" value="D:\Program files\JavaDK\bin"/>
-    <property name="sun.java.command" value="C:\Users\louis\AppData\Local\Temp\surefire13018272150172569114\surefirebooter17814258074274112487.jar C:\Users\louis\AppData\Local\Temp\surefire13018272150172569114 2019-10-18T15-31-41_833-jvmRun1 surefire1553462196707398647tmp surefire_09565944248046745075tmp"/>
+    <property name="sun.java.command" value="C:\Users\louis\AppData\Local\Temp\surefire10005800880429404944\surefirebooter11411155167858024052.jar C:\Users\louis\AppData\Local\Temp\surefire10005800880429404944 2019-10-18T19-44-35_278-jvmRun1 surefire6468923876783253865tmp surefire_0230434777566492786tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\Documents\Course Notes\Software Design Methods\homework4\homework4\target\test-classes;D:\Documents\Course Notes\Software Design Methods\homework4\homework4\target\classes;C:\Users\louis\.m2\repository\org\jetbrains\annotations\17.0.0\annotations-17.0.0.jar;C:\Users\louis\.m2\repository\org\antlr\antlr4-runtime\4.7.2\antlr4-runtime-4.7.2.jar;C:\Users\louis\.m2\repository\org\junit\jupiter\junit-jupiter\5.5.2\junit-jupiter-5.5.2.jar;C:\Users\louis\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.5.2\junit-jupiter-api-5.5.2.jar;C:\Users\louis\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\louis\.m2\repository\org\junit\platform\junit-platform-commons\1.5.2\junit-platform-commons-1.5.2.jar;C:\Users\louis\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.5.2\junit-jupiter-params-5.5.2.jar;C:\Users\louis\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.5.2\junit-jupiter-engine-5.5.2.jar;C:\Users\louis\.m2\repository\org\junit\vintage\junit-vintage-engine\5.5.2\junit-vintage-engine-5.5.2.jar;C:\Users\louis\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\louis\.m2\repository\org\junit\platform\junit-platform-engine\1.5.2\junit-platform-engine-1.5.2.jar;C:\Users\louis\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\louis\.m2\repository\com\pholser\junit-quickcheck-core\0.9\junit-quickcheck-core-0.9.jar;C:\Users\louis\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\louis\.m2\repository\org\javaruntype\javaruntype\1.3\javaruntype-1.3.jar;C:\Users\louis\.m2\repository\org\antlr\antlr-runtime\3.1.2\antlr-runtime-3.1.2.jar;C:\Users\louis\.m2\repository\ognl\ognl\3.1.12\ognl-3.1.12.jar;C:\Users\louis\.m2\repository\org\javassist\javassist\3.20.0-GA\javassist-3.20.0-GA.jar;C:\Users\louis\.m2\repository\ru\vyarus\generics-resolver\2.0.1\generics-resolver-2.0.1.jar;C:\Users\louis\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\louis\.m2\repository\com\pholser\junit-quickcheck-generators\0.9\junit-quickcheck-generators-0.9.jar;C:\Users\louis\.m2\repository\com\fathzer\javaluator\3.0.3\javaluator-3.0.3.jar;C:\Users\louis\.m2\repository\org\slf4j\slf4j-simple\1.7.28\slf4j-simple-1.7.28.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -33,7 +33,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\louis\AppData\Local\Temp\surefire13018272150172569114\surefirebooter17814258074274112487.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\louis\AppData\Local\Temp\surefire10005800880429404944\surefirebooter11411155167858024052.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="12.0.2+10"/>
@@ -58,22 +58,14 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="56.0"/>
   </properties>
-  <testcase name="testToStringAndEvaluation" classname="edu.postech.csed332.homework4.ExpTest" time="0.095"/>
-  <testcase name="testPrettyPrintDecoration" classname="edu.postech.csed332.homework4.ExpTest" time="0.001"/>
-  <testcase name="testDefaultValueDecoration" classname="edu.postech.csed332.homework4.ExpTest" time="0.007">
-    <failure message="expected: &lt;8.0&gt; but was: &lt;null&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <8.0> but was: <null>
-	at edu.postech.csed332.homework4.ExpTest.testDefaultValueDecoration(ExpTest.java:61)
-]]></failure>
-  </testcase>
+  <testcase name="testToStringAndEvaluation" classname="edu.postech.csed332.homework4.ExpTest" time="0.069"/>
+  <testcase name="testPrettyPrintDecoration" classname="edu.postech.csed332.homework4.ExpTest" time="0"/>
+  <testcase name="testDefaultValueDecoration" classname="edu.postech.csed332.homework4.ExpTest" time="0"/>
   <testcase name="testToString" classname="edu.postech.csed332.homework4.ExpTest" time="0"/>
-  <testcase name="testEquivalenceWrong" classname="edu.postech.csed332.homework4.ExpTest" time="0"/>
-  <testcase name="testEquivalence" classname="edu.postech.csed332.homework4.ExpTest" time="0"/>
-  <testcase name="testPrettyPrintAndDefaultValueDecoration" classname="edu.postech.csed332.homework4.ExpTest" time="0.001">
-    <failure message="expected: &lt;8.0&gt; but was: &lt;null&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <8.0> but was: <null>
-	at edu.postech.csed332.homework4.ExpTest.testPrettyPrintAndDefaultValueDecoration(ExpTest.java:77)
-]]></failure>
-  </testcase>
-  <testcase name="testRenamingEquivDecoration" classname="edu.postech.csed332.homework4.ExpTest" time="0.001">
+  <testcase name="testEquivalenceWrong" classname="edu.postech.csed332.homework4.ExpTest" time="0.002"/>
+  <testcase name="testEquivalence" classname="edu.postech.csed332.homework4.ExpTest" time="0.002"/>
+  <testcase name="testPrettyPrintAndDefaultValueDecoration" classname="edu.postech.csed332.homework4.ExpTest" time="0.001"/>
+  <testcase name="testRenamingEquivDecoration" classname="edu.postech.csed332.homework4.ExpTest" time="0.007">
     <failure message="expected: &lt;true&gt; but was: &lt;false&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
 	at edu.postech.csed332.homework4.ExpTest.testRenamingEquivDecoration(ExpTest.java:69)
 ]]></failure>

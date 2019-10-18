@@ -1,16 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: edu.postech.csed332.homework4.ExpTest
 -------------------------------------------------------------------------------
-Tests run: 10, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 0.119 s <<< FAILURE! - in edu.postech.csed332.homework4.ExpTest
-testDefaultValueDecoration  Time elapsed: 0.007 s  <<< FAILURE!
-org.opentest4j.AssertionFailedError: expected: <8.0> but was: <null>
-	at edu.postech.csed332.homework4.ExpTest.testDefaultValueDecoration(ExpTest.java:61)
-
-testPrettyPrintAndDefaultValueDecoration  Time elapsed: 0.001 s  <<< FAILURE!
-org.opentest4j.AssertionFailedError: expected: <8.0> but was: <null>
-	at edu.postech.csed332.homework4.ExpTest.testPrettyPrintAndDefaultValueDecoration(ExpTest.java:77)
-
-testRenamingEquivDecoration  Time elapsed: 0.001 s  <<< FAILURE!
+Tests run: 10, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.092 s <<< FAILURE! - in edu.postech.csed332.homework4.ExpTest
+testRenamingEquivDecoration  Time elapsed: 0.007 s  <<< FAILURE!
 org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
 	at edu.postech.csed332.homework4.ExpTest.testRenamingEquivDecoration(ExpTest.java:69)
 
