@@ -2,6 +2,7 @@ edu\postech\csed332\homework4\EvaluationVisitor.class
 edu\postech\csed332\homework4\expression\MinusExp.class
 edu\postech\csed332\homework4\expression\ExponentiationExp.class
 edu\postech\csed332\homework4\PrettyPrintExpDecorator.class
+edu\postech\csed332\homework4\RenamingEquivDecorator$PrivateEquivalenceVisitor.class
 edu\postech\csed332\homework4\ExpVisitor.class
 edu\postech\csed332\homework4\parser\SimpleExpressionVisitor.class
 edu\postech\csed332\homework4\expression\Exp.class
@@ -21,7 +22,6 @@ edu\postech\csed332\homework4\ToStringVisitor.class
 edu\postech\csed332\homework4\parser\SimpleExpressionParser.class
 edu\postech\csed332\homework4\expression\DivideExp.class
 edu\postech\csed332\homework4\parser\SimpleExpressionParser$BinaryExpressionContext.class
-edu\postech\csed332\homework4\RenamingEquivDecorator$1.class
 edu\postech\csed332\homework4\ExpDecorator.class
 edu\postech\csed332\homework4\EquivalenceVisitor.class
 edu\postech\csed332\homework4\DefaultValueExpDecorator.class
