@@ -50,5 +50,5 @@ public class EvaluationVisitor implements ExpVisitor<Double> {
     public Double visitExponentiationExp(ExponentiationExp v) {
         return (Math.pow(v.getLeft().eval(valuation), v.getRight().eval(valuation)));
     }
-    
+
 }

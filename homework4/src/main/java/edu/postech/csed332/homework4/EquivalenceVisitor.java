@@ -1,6 +1,6 @@
 package edu.postech.csed332.homework4;
 
-import edu.postech.csed332.homework4.expression.Exp;
+import edu.postech.csed332.homework4.expression.*;
 import org.jetbrains.annotations.NotNull;
 
 /**
@@ -8,10 +8,51 @@ import org.jetbrains.annotations.NotNull;
  */
 public class EquivalenceVisitor implements ExpVisitor<Boolean> {
 
+    Exp other;
+
     public EquivalenceVisitor(@NotNull Exp other) {
-        // TODO: implement this
+        this.other = other;
     }
 
-    // TODO write and implement the visitor methods for EquivalenceVisitor, satisfying
-    //  the specification of Exp.equiv. You may need to add more member variables.
+    @Override
+    public Boolean visitVariableExp(VariableExp v) {
+        if (v.toString().equals(other.toString())) return true;
+        else return false;
+    }
+
+    @Override
+    public Boolean visitNumberExp(NumberExp v) {
+        if (v.toString().equals(other.toString())) return true;
+        else return false;
+    }
+
+    @Override
+    public Boolean visitPlusExp(PlusExp v) {
+        if (v.toString().equals(other.toString())) return true;
+        else return false;
+    }
+
+    @Override
+    public Boolean visitMinusExp(MinusExp v) {
+        if (v.toString().equals(other.toString())) return true;
+        else return false;
+    }
+
+    @Override
+    public Boolean visitMultiplyExp(MultiplyExp v) {
+        if (v.toString().equals(other.toString())) return true;
+        else return false;
+    }
+
+    @Override
+    public Boolean visitDivideExp(DivideExp v) {
+        if (v.toString().equals(other.toString())) return true;
+        else return false;
+    }
+
+    @Override
+    public Boolean visitExponentiationExp(ExponentiationExp v) {
+        if (v.toString().equals(other.toString())) return true;
+        else return false;
+    }
 }
