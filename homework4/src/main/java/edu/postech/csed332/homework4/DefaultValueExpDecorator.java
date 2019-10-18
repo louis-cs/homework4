@@ -22,6 +22,7 @@ public class DefaultValueExpDecorator extends ExpDecorator {
     @NotNull
     public Double eval(@NotNull Map<Integer, Double> valuation) {
         return accept(new EvaluationVisitor(valuation){
+            @Override
             public Double visitVariableExp(VariableExp v)
             {
                 if (!(valuation.containsKey(v.getName()))) return defaultValue;
